@@ -1,0 +1,371 @@
+{
+  "nhits": 1398,
+  "parameters": {
+    "dataset": "velib-disponibilite-en-temps-reel",
+    "timezone": "UTC",
+    "rows": 15,
+    "format": "json"
+  },
+  "records": [
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "7326ad3974a01bcf84f14db1bdd8375a57c3d5f7",
+      "fields": {
+        "ebike": 2,
+        "capacity": 17,
+        "name": "Saint-Romain - Cherche-Midi",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 12,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 10,
+        "stationcode": "6108",
+        "coordonnees_geo": [48.8470815908, 2.32137478888],
+        "numdocksavailable": 5,
+        "duedate": "2020-03-22T10:14:14+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32137478888, 48.8470815908]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "17a3b8fbeecd34ed60335c5e15b0f00aa90b03dc",
+      "fields": {
+        "ebike": 3,
+        "capacity": 33,
+        "name": "Boétie - Ponthieu",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 3,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 0,
+        "stationcode": "8050",
+        "coordonnees_geo": [48.8714172844, 2.3076787591],
+        "numdocksavailable": 30,
+        "duedate": "2020-03-22T10:13:52+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3076787591, 48.8714172844]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "f1c2d640354ffe9c764d5d93f98c25d9ac5bc0d9",
+      "fields": {
+        "ebike": 7,
+        "capacity": 29,
+        "name": "Square Louis XVI",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 21,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 14,
+        "stationcode": "8016",
+        "coordonnees_geo": [48.873204401, 2.32365883074],
+        "numdocksavailable": 7,
+        "duedate": "2020-03-22T10:09:54+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32365883074, 48.873204401]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "a0b3494e281fc0237a4a08504df1a2c5e24985e9",
+      "fields": {
+        "ebike": 4,
+        "capacity": 24,
+        "name": "Thionville - Ourcq",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 8,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 4,
+        "stationcode": "19015",
+        "coordonnees_geo": [48.8891761374, 2.38336533308],
+        "numdocksavailable": 16,
+        "duedate": "2020-03-22T10:10:59+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.38336533308, 48.8891761374]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "1cd186325f7bbcc179f96b2012cc7d0bb7bbf8fb",
+      "fields": {
+        "ebike": 8,
+        "capacity": 38,
+        "name": "Saint-Ambroise - Parmentier",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 17,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 9,
+        "stationcode": "11027",
+        "coordonnees_geo": [48.8621478445, 2.3772348091],
+        "numdocksavailable": 21,
+        "duedate": "2020-03-22T10:14:36+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3772348091, 48.8621478445]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "daad84fdccd5d8c2d98dcc453318092c97fbfb5c",
+      "fields": {
+        "ebike": 3,
+        "capacity": 65,
+        "name": "Rocher - Laborde",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 6,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 3,
+        "stationcode": "8017",
+        "coordonnees_geo": [48.8759024071, 2.32261631638],
+        "numdocksavailable": 58,
+        "duedate": "2020-03-22T10:09:35+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32261631638, 48.8759024071]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "4ba54ba3a82820371809fbc87ecfbadcc474aec7",
+      "fields": {
+        "ebike": 4,
+        "capacity": 30,
+        "name": "Lucie Aubrac - Fort",
+        "nom_arrondissement_communes": "Issy-les-Moulineaux",
+        "numbikesavailable": 5,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 1,
+        "stationcode": "21312",
+        "coordonnees_geo": [48.818144834, 2.27118462324],
+        "numdocksavailable": 26,
+        "duedate": "2020-03-22T10:15:48+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.27118462324, 48.818144834]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "eb7462465a7c7d4f206fbf29a388c2b1b1865830",
+      "fields": {
+        "ebike": 2,
+        "capacity": 19,
+        "name": "Buisson Saint-Louis - Saint-Maur",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 6,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 4,
+        "stationcode": "10024",
+        "coordonnees_geo": [48.8717468493, 2.37225283288],
+        "numdocksavailable": 13,
+        "duedate": "2020-03-22T10:13:56+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.37225283288, 48.8717468493]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "d569f02debfe03f94b923f4870784dfdfb22d3ca",
+      "fields": {
+        "ebike": 3,
+        "capacity": 32,
+        "name": "Bertie Albrecht - Hoche",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 6,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 3,
+        "stationcode": "8054",
+        "coordonnees_geo": [48.8761403983, 2.30130313831],
+        "numdocksavailable": 26,
+        "duedate": "2020-03-22T10:12:27+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.30130313831, 48.8761403983]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "2bed5a4a2e5d93e325075b21b20c90e7baad29a2",
+      "fields": {
+        "ebike": 1,
+        "capacity": 33,
+        "name": "Repos - Cimetière du Père Lachaise",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 5,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 4,
+        "stationcode": "20131",
+        "coordonnees_geo": [48.8593585236, 2.38961313668],
+        "numdocksavailable": 28,
+        "duedate": "2020-03-22T10:12:14+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.38961313668, 48.8593585236]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "afb1906cdeb02e1a02f9c9f1a94a66eb1c0174b2",
+      "fields": {
+        "ebike": 7,
+        "capacity": 28,
+        "name": "Léonard de Vinci",
+        "nom_arrondissement_communes": "Courbevoie",
+        "numbikesavailable": 12,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 5,
+        "stationcode": "24001",
+        "coordonnees_geo": [48.8979097249, 2.23837230436],
+        "numdocksavailable": 16,
+        "duedate": "2020-03-22T10:13:08+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.23837230436, 48.8979097249]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "897b4ff8409eefbd7eef35d3a238c8f2b462143a",
+      "fields": {
+        "ebike": 0,
+        "capacity": 22,
+        "name": "Jean-François Lépine - Stephenson",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 2,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 2,
+        "stationcode": "18009",
+        "coordonnees_geo": [48.886114668, 2.35685562753],
+        "numdocksavailable": 19,
+        "duedate": "2020-03-22T10:07:35+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.35685562753, 48.886114668]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "1bbfe93dc506015a5b20f7956239341dd7128be6",
+      "fields": {
+        "ebike": 0,
+        "capacity": 40,
+        "name": "Place de la Porte de Paris",
+        "nom_arrondissement_communes": "Saint-Denis",
+        "numbikesavailable": 0,
+        "is_installed": "NON",
+        "is_renting": "NON",
+        "mechanical": 0,
+        "stationcode": "32016",
+        "coordonnees_geo": [48.930292, 2.356183],
+        "numdocksavailable": 40,
+        "duedate": "2019-05-02T08:37:45+00:00",
+        "is_returning": "NON"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.356183, 48.930292]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "c13d73f50b5c52c6d2c46d7a77b895dfc095aeb7",
+      "fields": {
+        "ebike": 0,
+        "capacity": 16,
+        "name": "Montgallet - Charenton",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 4,
+        "is_installed": "OUI",
+        "is_renting": "OUI",
+        "mechanical": 4,
+        "stationcode": "12027",
+        "coordonnees_geo": [48.8426477787, 2.38616492781],
+        "numdocksavailable": 12,
+        "duedate": "2020-03-22T10:13:45+00:00",
+        "is_returning": "OUI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.38616492781, 48.8426477787]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    },
+    {
+      "datasetid": "velib-disponibilite-en-temps-reel",
+      "recordid": "6c9b25b9e6649ec2bf3df75a227525ec8a05e438",
+      "fields": {
+        "ebike": 0,
+        "capacity": 18,
+        "name": "Quai d'Orsay - Invalides",
+        "nom_arrondissement_communes": "Paris",
+        "numbikesavailable": 0,
+        "is_installed": "OUI",
+        "is_renting": "NON",
+        "mechanical": 0,
+        "stationcode": "7112",
+        "coordonnees_geo": [48.8630969001, 2.31698962102],
+        "numdocksavailable": 0,
+        "duedate": "2020-03-03T08:38:37+00:00",
+        "is_returning": "NON"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.31698962102, 48.8630969001]
+      },
+      "record_timestamp": "2020-03-22T11:01:17.313000+00:00"
+    }
+  ]
+}
