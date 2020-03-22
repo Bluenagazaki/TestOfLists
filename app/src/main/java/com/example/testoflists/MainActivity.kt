@@ -10,10 +10,12 @@ import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import kotlinx.android.synthetic.main.list_item.*
 import org.json.JSONObject
 import java.io.InputStream
 import java.io.InputStreamReader
 import java.net.URL
+import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
@@ -127,12 +129,16 @@ class MainActivity : AppCompatActivity() {
             }
         })
         t.start()
+        findViewById<TextView>(R.id.date).text = SimpleDateFormat ("dd/MM kk:mm\n").toString()
+
         findViewById<ListView>(R.id.main_listView).adapter = adapter
 
         findViewById<Button>(R.id.refresh).setOnClickListener { y ->
             adapter.clear()
             adapter.notifyDataSetChanged()
             getData(adapter)
+
         }
+
     }
 }
