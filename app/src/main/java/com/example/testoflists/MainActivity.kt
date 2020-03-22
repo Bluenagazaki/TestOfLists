@@ -9,10 +9,7 @@ import android.util.JsonReader
 import android.util.Log
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import android.widget.BaseAdapter
-import android.widget.ListView
-import android.widget.TextView
+import android.widget.*
 import org.json.JSONObject
 import java.io.InputStream
 import java.io.InputStreamReader
@@ -34,13 +31,12 @@ class StationAdapter(activity: MainActivity, ctx: Context, resid: Int) :
     var act = activity
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        Log.e("station", "test")
         val v = convertView ?: act.layoutInflater.inflate(R.layout.list_item, null)
         val station = this.getItem(position)
         v.findViewById<TextView>(R.id.name).text = station!!.name
-        //v.findViewById<TextView>(R.id.name).text = this.getItem(position)?.numBike
-        //v.findViewById<TextView>(R.id.coord).text =
-            //this.getItem(position)!!.coord["lat"].toString() + " " + this.getItem(position)!!.coord["lon"].toString()
+        v.findViewById<TextView>(R.id.bike).text = "Vélos disponibles: " + this.getItem(position)?.numBike.toString()
+        v.findViewById<TextView>(R.id.coord).text =
+            this.getItem(position)!!.coord["lat"].toString() + " " + this.getItem(position)!!.coord["lon"].toString()
         return v
     }
 
@@ -54,13 +50,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        getData()
-
+        var adapter = StationAdapter(this, this, R.id.main_listView)
+        getData(adapter)
     }
 
 
-    private fun getData() {
-        var adapter = StationAdapter(this, this, R.id.main_listView)
+    private fun getData(adapter: StationAdapter) {
         val t = Thread(Runnable {
             try {
                 val u =
@@ -132,5 +127,12 @@ class MainActivity : AppCompatActivity() {
             }
         })
         t.start()
+        findViewById<ListView>(R.id.main_listView).adapter = adapter
+
+        findViewById<Button>(R.id.refresh).setOnClickListener { y ->
+            adapter.clear()
+            adapter.notifyDataSetChanged()
+            getData(adapter)
+        }
     }
 }
