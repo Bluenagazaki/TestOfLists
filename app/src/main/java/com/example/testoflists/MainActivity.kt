@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
             }
         })
         t.start()
-        findViewById<TextView>(R.id.date).text = SimpleDateFormat ("dd/MM kk:mm\n").toString()
+        findViewById<TextView>(R.id.date).text = "Dernière mise à jour : " + SimpleDateFormat ("dd/MM kk:mm\n").format(Date()).toString()
 
         findViewById<ListView>(R.id.main_listView).adapter = adapter
 
